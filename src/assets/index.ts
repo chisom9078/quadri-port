@@ -23,6 +23,9 @@ import l from "./images/l.jpg"
 import d from "./images/network.jpg"
 import da from "./images/d.jpg"
 import q from "./images/qua-removebg-preview.png"
+import s from "./images/s.png"
+import w from "./images/image 4.jpg"
+import r from "./images/image10.jpg"
 export {
   logo,
   bannerImg,
@@ -48,5 +51,8 @@ export {
   l,
   d,
   da,
-  q
+  q,
+  s,
+  w,
+  r
 };
