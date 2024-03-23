@@ -1,6 +1,6 @@
 import Title from "./Title";
 import ProjectsCard from "./ProjectsCard";
-import { l, d, hiring,ok,oka,okay} from "../assets";
+import { l,  hiring,oka,okay,r,w} from "../assets";
 import { FadeIn } from "./FadeIn";
 
 const Projects = () => {
@@ -26,7 +26,7 @@ const Projects = () => {
           <a href="#"> <ProjectsCard
             title="Logo Design"
             des=""
-            src={ok}
+            src={r}
           /></a>
          
            <a href="#"><ProjectsCard
@@ -50,7 +50,7 @@ const Projects = () => {
           <ProjectsCard
             title="Banner Design"
             des=""
-            src={d}
+            src={w}
           />
           </a>
         
