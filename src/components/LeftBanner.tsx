@@ -1,6 +1,6 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaLinkedinIn,FaInstagram,FaTwitter } from "react-icons/fa";
-import { SiFigma, SiAdobeillustrator, SiAdobephotoshop, SiHtml5, SiCss3} from "react-icons/si";
+import { SiFigma, SiAdobeillustrator, SiAdobephotoshop} from "react-icons/si";
 import { FadeIn } from "./FadeIn";
 
 const LeftBanner = () => {
@@ -72,12 +72,7 @@ const LeftBanner = () => {
               <SiFigma />
             </span>
       
-            <span className="bannerIcon">
-              <SiHtml5 />
-            </span>
-            <span className="bannerIcon">
-              <SiCss3 />
-            </span>
+           
           </div>
         </div>
       </div>

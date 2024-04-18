@@ -1,4 +1,4 @@
-import logo from "./images/logo.png";
+import logo from "./images/QUA LOGO.png";
 import bannerImg from "./images/bannerImg.png";
 import projectOne from "./images/projects/projectOne.jpg";
 import projectTwo from "./images/projects/projectTwo.jpg";
@@ -26,6 +26,10 @@ import q from "./images/qua-removebg-preview.png"
 import s from "./images/s.png"
 import w from "./images/image 4.jpg"
 import r from "./images/image10.jpg"
+import Cyprus from "./images/cyprus.png"
+import idate from "./images/idate.png"
+import Appex from "./images/Appex.png"
+import status from "./images/status.png"
 export {
   logo,
   bannerImg,
@@ -54,5 +58,9 @@ export {
   q,
   s,
   w,
-  r
+  r,
+  Cyprus,
+  status,
+  idate,
+  Appex
 };

@@ -4,6 +4,9 @@ import { SiAntdesign,SiAltiumdesigner } from "react-icons/si";
 import Card from "./Card";
 import Title from "./Title";
 import { FadeIn } from "./FadeIn";
+//import { NavLink} from "react-router-dom";
+
+import { Link } from "react-scroll";
 
 const Feature = () => {
   return (
@@ -32,17 +35,25 @@ const Feature = () => {
       hic consequuntur eum repellendus ad."
             icon={<SiProgress />}
   />*/}
-        <Card
+  <Link to='projects'>
+  <Card
             title="Graphics design"
             des="Utilize design tools to design different products."
             icon={< SiAltiumdesigner  />}
            
 />
-          <Card
-            title="UX Design"
-            des="Utilizing Figma, I work concurrently on multiple projects."
-            icon={<SiAntdesign />}
-/>
+  </Link>
+      
+<Link to='Ui'> {/* Use ScrollLink instead of Link */}
+            <Card
+              title="UX Design"
+              des="Utilizing Figma, I work concurrently on multiple projects."
+              icon={<SiAntdesign />}
+            />
+          </Link>
+
+       
+   
          { /*<Card
             title="Web Development"
             des="By employing Reactjs,Nextjs and Nodejs, I have the capability to craft cross-platform applications with streamlined front-end development, ensuring seamless user experiences via single-page application (SPA) development. This combination supports server-side rendering, enhancing performance and scalability, all underpinned by rich ecosystems and adherence to modern development practices."
