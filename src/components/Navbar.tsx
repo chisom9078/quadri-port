@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaFacebookF, FaYoutube, FaLinkedinIn } from "react-icons/fa";
-import { qua } from "../assets";
+import { qua,logo } from "../assets";
 import { navLinksdata } from "../constants";
 
 const Navbar = () => {
@@ -11,11 +11,11 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 backdrop-blur-2xl transition-colors bg-bodyColor/70 mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 px-4">
       <div>
-        <img src={qua} alt="logo"  className=" w-20"/>
+        <img src={logo} alt="logo"  className=" w-20"/>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
-          {navLinksdata.map(({ _id, title, link }) => (
+          {navLinksdata.map(({ _id, title, link}) => (
             <li
               className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-sky-500 duration-300"
               key={_id}
@@ -45,9 +45,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={qua} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+             
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
