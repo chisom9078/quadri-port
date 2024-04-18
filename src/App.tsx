@@ -5,6 +5,10 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
+
+import { BrowserRouter as Router, Route } from 'react-router-dom'; // Import BrowserRouter and Route from react-router-dom
+import UI from "./components/UI";
+//import UI from "./components/UI";
 //import Testimonial from "./components/Testimonial";
 
 function App() {
@@ -16,8 +20,8 @@ function App() {
           <Banner />
           <Feature />
           <Projects />
+          <UI />
           <Resume />
-       
           <Contact />
           <Footer />
         </div>

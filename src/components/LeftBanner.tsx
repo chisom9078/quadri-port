@@ -72,12 +72,7 @@ const LeftBanner = () => {
               <SiFigma />
             </span>
       
-            <span className="bannerIcon">
-              <SiHtml5 />
-            </span>
-            <span className="bannerIcon">
-              <SiCss3 />
-            </span>
+           
           </div>
         </div>
       </div>
